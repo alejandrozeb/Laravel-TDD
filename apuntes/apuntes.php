@@ -26,4 +26,22 @@ echo "Hello laravel";
 
     se descarga todo el sistema de archivos de laravel
     con wamp debes ingresar a la carpeta public para visualizar el proyecto
+
+    el punto de entrada es public->index
+
+    se cargan las calses
+    arranca laravel
+    el sistema comiienza a ejecutar la peticiones
+    rutas
+    definimos las rutas
+
+    vendor(vendedores)
+    laravel usa dependencias y se instalan todas las necesarias
+
+    vista
+    tiene las vistas
+
+
+
+
 */
