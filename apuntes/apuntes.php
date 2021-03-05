@@ -14,6 +14,16 @@ echo "Hello laravel";
     - Crud con laravel
     - Registro de post
     - API
+    software:
+    apache, php, mysql, Visual, git, composer. 
+    
+     composer global require laravel/installer
 
+     para instalar laravel globalmente
 
+    `para iniciar un proyecto
+    laravel new ciclo <nombre del proyecto>
+
+    se descarga todo el sistema de archivos de laravel
+    con wamp debes ingresar a la carpeta public para visualizar el proyecto
 */
