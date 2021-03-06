@@ -42,6 +42,12 @@ echo "Hello laravel";
     tiene las vistas
 
 
+    php artisan
+    comando para ver comaandos
+
+    todo la bd se trabaja en migrations
+
+
 
 
 */
