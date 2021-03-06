@@ -54,4 +54,7 @@ echo "Hello laravel";
 
    php artisan route:list
    para ver las rutas
-*/
+
+   php artisan make:controller UserController
+   crea un controlador
+   */
