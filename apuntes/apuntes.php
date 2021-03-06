@@ -47,7 +47,11 @@ echo "Hello laravel";
 
     todo la bd se trabaja en migrations
 
+    DAtabase
+    php artisan migrate 
+    para migrar las bd
+    laravel ya viene con tablas integradas
 
-
-
+   php artisan route:list
+   para ver las rutas
 */
