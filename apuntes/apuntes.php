@@ -57,4 +57,13 @@ echo "Hello laravel";
 
    php artisan make:controller UserController
    crea un controlador
+
+   -----CREAR DATA EN LARAVEL----------
+   en consola escribimos php artisan tinker
+
+   se abre una consola donde podemos controlar la data que podemos generar
+
+   User::factory()->count(12)->create();
+
+   genera doce usuarios del tipo user, con a ayuda de factori que esta en la carpeta database.
    */
