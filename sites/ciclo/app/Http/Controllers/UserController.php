@@ -14,8 +14,14 @@ class UserController extends Controller
             'users' => $user
         ]);
     }
-    public function store(){
-        
+    public function store(Request $request){
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => $request->password
+        ]);
+
+        return back(); //retorna a la vista anterior
     }
     public function delete(){
         
