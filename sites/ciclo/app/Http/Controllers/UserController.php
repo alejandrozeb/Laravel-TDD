@@ -23,7 +23,7 @@ class UserController extends Controller
 
         return back(); //retorna a la vista anterior
     }
-    public function delete(User $user){
+    public function destroy(User $user){
         //reconoce el tipo de dato
         
         $user->delete();
