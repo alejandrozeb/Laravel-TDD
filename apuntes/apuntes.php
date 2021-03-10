@@ -66,4 +66,7 @@ echo "Hello laravel";
    User::factory()->count(12)->create();
 
    genera doce usuarios del tipo user, con a ayuda de factori que esta en la carpeta database.
+
+   -----------form--------
+   @csrf indicamos que es nuestro formulario
    */
