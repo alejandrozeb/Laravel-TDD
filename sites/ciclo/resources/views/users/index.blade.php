@@ -22,24 +22,26 @@
        <div class="container">
             <div class="row">
                 <div class="col-sm-8 mx-auto">
-                    <div class="card">
-                        <form action="{{route('users.store')}}" method="POST">
-                            <div class="form-row">
-                                <div class="col-sm-3">
-                                    <input type="text" name="name" class="form-control" placeholder="Nombre">
+                    <div class="card border-0 p-2 shadow">
+                        <div class="card-body p-3">
+                            <form action="{{route('users.store')}}" method="POST">
+                                <div class="form-row">
+                                    <div class="col-sm-3">
+                                        <input type="text" name="name" class="form-control" placeholder="Nombre">
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <input type="email" name="email" class="form-control" placeholder="Email">
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <input type="text" name="password" class="form-control" placeholder="Contraseña">
+                                    </div>
+                                    <div class="col-auto">
+                                        @csrf
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </div>
                                 </div>
-                                <div class="col-sm-3">
-                                    <input type="email" name="email" class="form-control" placeholder="Email">
-                                </div>
-                                <div class="col-sm-3">
-                                    <input type="text" name="password" class="form-control" placeholder="Contraseña">
-                                </div>
-                                <div class="col-auto">
-                                    @csrf
-                                    <button type="submit" class="btn btn-primary">Enviar</button>
-                                </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
 
                     <table class="table table-dark">
