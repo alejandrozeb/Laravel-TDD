@@ -69,4 +69,18 @@ echo "Hello laravel";
 
    -----------form--------
    @csrf indicamos que es nuestro formulario
+   ----middleware---------------
+   filtrado a peticiones htpp podemos agregar seguridad en esta capa.
+   Esta en el medio puede ser un celular, un sitio web en telecomunicaciones se usa con mayor frecuencia
+   En laravel podemos encontrar en app/http/middleware
+
+   el elemento mas importante es autentificacion donde esta la logica necesaria
+
+   En http kernel se registran nuestros midlewares y cualquier funcionalidad extra que necesitamos
+
+   Route::resource('user', 'UserController')->middleware('auth');
+
+
+   proteje todos los entry points del controller no es necesario configurar para cada metodo del controlador
+
    */
