@@ -83,4 +83,15 @@ echo "Hello laravel";
 
    proteje todos los entry points del controller no es necesario configurar para cada metodo del controlador
 
+   ----------------ROUTES & CONTROLLERS---------------
+   ROute capa encargada de manejar el flujo, apunta a una logica
+
+   controller: contiene la logica de negocio
+
+   se encuentran dentro de rutas
+   web 
+   console para comando 
+   channels para email o celulare
+   api
+
    */
