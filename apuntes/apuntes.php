@@ -94,4 +94,10 @@ echo "Hello laravel";
    channels para email o celulare
    api
 
+   php artisan make:controller PageController --resource
+   crea el controlador con las rutas necesarias para un Crud
+
+   php artisan make:controller PageController --resource --model=Page
+
+   cremos el modelo y el controlador
    */
