@@ -109,4 +109,8 @@ echo "Hello laravel";
    -------Motor de plantillas--------------------
    Blade sistema de plantillas en Laravel
    Caracteristicas propias de un lenguaje
+
+   En el navegador no se muestra codigo php
+   crea las vistas en la carpeta storage, de framework vistas
+   no se consume exceso de recursos porque se hace php y se muestra
    */

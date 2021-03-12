@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
+    @include('header')  <!-- importamos la plantilla -->
     @yield('content')   <!-- definimos la plantilla -->
+    <!-- de este podemos reutilizar codigo y manejar la herencia -->
+    @include('footer')
 </body>
 </html>
