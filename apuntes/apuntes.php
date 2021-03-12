@@ -131,4 +131,10 @@ echo "Hello laravel";
    se pueden usar para crear un login con bootstrap
    se crean archivos, controladores, rutas de autenticacion
 
+   despues de la instalcion debemos ejecutar
+   npm install
+   npm run dev
+   para instalar dependencias de js
+
+   Es una alternativa
    */
