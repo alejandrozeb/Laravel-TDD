@@ -120,4 +120,15 @@ echo "Hello laravel";
    composer require laravel/ui
 
    Sistema de login y registro, vienen como componente
+
+   composer require laravel/ui --dev
+   para instalar esta herramienta se debe ir a dev por que el resultado se subira a produccion
+
+   php artisan 
+   vue 
+   react 
+   bootstrap --auth
+   se pueden usar para crear un login con bootstrap
+   se crean archivos, controladores, rutas de autenticacion
+
    */
