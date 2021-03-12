@@ -100,4 +100,9 @@ echo "Hello laravel";
    php artisan make:controller PageController --resource --model=Page
 
    cremos el modelo y el controlador
+
+   Validacion request
+   Filtro de peticiones http en un sistema
+
+   el codigo se lleva a un archivo separado
    */
