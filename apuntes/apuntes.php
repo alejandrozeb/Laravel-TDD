@@ -105,4 +105,8 @@ echo "Hello laravel";
    Filtro de peticiones http en un sistema
 
    el codigo se lleva a un archivo separado
+
+   -------Motor de plantillas--------------------
+   Blade sistema de plantillas en Laravel
+   Caracteristicas propias de un lenguaje
    */
