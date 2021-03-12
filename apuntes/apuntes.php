@@ -113,4 +113,11 @@ echo "Hello laravel";
    En el navegador no se muestra codigo php
    crea las vistas en la carpeta storage, de framework vistas
    no se consume exceso de recursos porque se hace php y se muestra
+
+   ---Paquete Laravel/UI-------------
+   Registro y autenticacion de usuarios de un sistema Web en laravel
+
+   composer require laravel/ui
+
+   Sistema de login y registro, vienen como componente
    */
