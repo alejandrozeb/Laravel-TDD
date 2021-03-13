@@ -19,8 +19,14 @@ Route::get('/', function () {
 
 use App\Models\Post;
 Route::get('eloquent', function () {
-      $posts = Post::all();
-    
+      //$posts = Post::all();
+        /* $posts = Post::where('id','>=', '5')
+        ->get(); */
+        $posts = Post::where('id','>=', '5')
+        ->orderBy('id', 'desc')
+        ->take(3)
+        ->get();//odena de manera descendente
+        //var_dump($posts);
     foreach($posts as $post){
         echo "$post->id $post->title <br>";
     }
