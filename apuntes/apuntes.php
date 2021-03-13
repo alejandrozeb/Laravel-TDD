@@ -141,4 +141,10 @@ echo "Hello laravel";
    -------------ELOQUENT---------------------------
    ORM de Laravel
    No escribimos sql
+   make:model, un modelo es una representeacion de una tabla
+    php artisan make:controller -h para ver todas las opciones de controller
+    php artisan  make:model Post -m -f crea la migracion y el factory
+
+    En la configuracino de mysql config/database
+    +debemos cambiar el engine por InnoDB para no tener probelmas en la migracion
    */
