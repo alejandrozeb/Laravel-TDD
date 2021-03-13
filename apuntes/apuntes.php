@@ -147,4 +147,14 @@ echo "Hello laravel";
 
     En la configuracino de mysql config/database
     +debemos cambiar el engine por InnoDB para no tener probelmas en la migracion
+    las tablas deben ser en singular
+    php artisan tinker 
+    creamos un seeder
+
+    codigo de factory
+    'title' => $this->faker->sentence
+
+    para generar data con tinker
+
+    Post::factory()->count(10)->create()
    */
