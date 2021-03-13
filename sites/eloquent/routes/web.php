@@ -14,5 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return ('welcome');
+});
+
+use App\Models\Post;
+Route::get('eloquent', function () {
+      $posts = Post::all();
+    
+    foreach($posts as $post){
+        echo "$post->id $post->title <br>";
+    }
+    //return view('welcome');
 });
