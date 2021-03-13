@@ -137,4 +137,8 @@ echo "Hello laravel";
    para instalar dependencias de js
 
    Es una alternativa
+
+   -------------ELOQUENT---------------------------
+   ORM de Laravel
+   No escribimos sql
    */
