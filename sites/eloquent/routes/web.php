@@ -42,3 +42,13 @@ Route::get('posts', function () {
       $post->title <br>";
   }
 });
+use App\Models\User;
+Route::get('users', function () {
+    $users = User::get();
+  foreach($users as $user){
+      echo "
+      $user->id
+      $user->name 
+      <strong> Post: {$user->posts->count()} </strong> <br>";    //debe ser la entidad del model
+  }
+});
