@@ -157,4 +157,8 @@ echo "Hello laravel";
     para generar data con tinker
 
     Post::factory()->count(10)->create()
+
+    Relacion de tablas Unir datos.
+    Colecciones y serialización Manipular la informacion
+    Formato de datos y presentacion Formato de Datos
    */
