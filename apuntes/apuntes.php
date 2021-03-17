@@ -161,4 +161,9 @@ echo "Hello laravel";
     Relacion de tablas Unir datos.
     Colecciones y serialización Manipular la informacion
     Formato de datos y presentacion Formato de Datos
+
+    php artisan migrate:refresh Borra los datos
+
+    php artisan migrate:refresh --seed 
+    para actulizar con los seed y factories
    */
