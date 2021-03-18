@@ -166,4 +166,9 @@ echo "Hello laravel";
 
     php artisan migrate:refresh --seed 
     para actulizar con los seed y factories
+
+    Coleccion 
+    Traer datos
+    Se usa la clase coleccions cada array tiene objetos
+    Serializacion forma de retornar datos
    */

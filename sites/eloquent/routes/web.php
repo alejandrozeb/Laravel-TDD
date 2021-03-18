@@ -52,3 +52,9 @@ Route::get('users', function () {
       <strong> Post: {$user->posts->count()} </strong> <br>";    //debe ser la entidad del model
   }
 });
+
+Route::get('coleccions', function () {
+    $users = User::all();
+    dd($users);
+
+});
