@@ -170,5 +170,9 @@ echo "Hello laravel";
     Coleccion 
     Traer datos
     Se usa la clase coleccions cada array tiene objetos
+    En original podemos ver que datos trae el objeto
+
+    es la forma de manipular los datos con metodos
+
     Serializacion forma de retornar datos
    */
