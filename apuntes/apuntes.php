@@ -175,4 +175,7 @@ echo "Hello laravel";
     es la forma de manipular los datos con metodos
 
     Serializacion forma de retornar datos
+    Pueden ser arrays y Json con
+    toArray, toJson
+    forma de presentar datos
    */

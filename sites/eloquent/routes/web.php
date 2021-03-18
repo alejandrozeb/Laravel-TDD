@@ -66,5 +66,8 @@ Route::get('coleccions', function () {
 Route::get('serialization', function () {
     $users = User::all();
 
-    dd($users->toArray('posts'));
+    //dd($users->toArray('posts'));//devuelve array
+    $user = $users->find(1);
+    //dd($user);  //devuelve un user
+    dd($user->toJson());    //devuelve un Json
 });
