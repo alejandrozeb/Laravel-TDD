@@ -62,3 +62,9 @@ Route::get('coleccions', function () {
     //dd($users->find(4));    //busca el id 4
     dd($users->load('posts'));  //trae todos los usuarios con sus relaciones
 });
+
+Route::get('serialization', function () {
+    $users = User::all();
+
+    dd($users->toArray('posts'));
+});
