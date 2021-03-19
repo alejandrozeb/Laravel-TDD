@@ -178,4 +178,7 @@ echo "Hello laravel";
     Pueden ser arrays y Json con
     toArray, toJson
     forma de presentar datos
+
+    Formato de valores en tablas y presentacion de datos
+    
    */
