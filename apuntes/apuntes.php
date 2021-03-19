@@ -180,5 +180,11 @@ echo "Hello laravel";
     forma de presentar datos
 
     Formato de valores en tablas y presentacion de datos
-    
+    ------COMANDO------------
+    php artisan make:model Post -mfc
+    crea la migracion el factoru y el controlador
+
+    composer require cviebrock/eloquent-sluggable
+
+    descarga composer eloquent  en git podemos encontrar la documentacion
    */
