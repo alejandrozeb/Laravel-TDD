@@ -39,7 +39,7 @@ Route::get('posts', function () {
       echo "
       $post->id
       <strong> {$post->user->get_name} </strong>
-      $post->title <br>";
+      $post->get_title <br>";//para usar del modelo getGetTitleA..
   }
 });
 use App\Models\User;
