@@ -38,7 +38,7 @@ Route::get('posts', function () {
   foreach($posts as $post){
       echo "
       $post->id
-      <strong> {$post->user->name} </strong>
+      <strong> {$post->user->get_name} </strong>
       $post->title <br>";
   }
 });
