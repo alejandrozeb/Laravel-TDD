@@ -15,4 +15,8 @@ class Post extends Model
     public function getGetTitleAttribute(){
         return strtoupper($this->title);//devuelve mayuscula
     }
+
+    public function setNameAttribute($value){
+        $this->attributes['title'] = strtolower($value);
+    }
 }
