@@ -187,4 +187,8 @@ echo "Hello laravel";
     composer require cviebrock/eloquent-sluggable
 
     descarga composer eloquent  en git podemos encontrar la documentacion
+
+    Slug es colocar una url de forma amigable
+    basic-new/id
+    basic-new/hola-soy-el-parrafo
    */
