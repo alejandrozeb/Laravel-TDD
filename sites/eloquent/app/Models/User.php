@@ -46,7 +46,7 @@ class User extends Authenticatable
     }
 
     public function getGetNameAttribute(){
-        return strtoupper($this->name);
+        return ucfirst($this->name);
     }
     //setea el valor de name
     public function setNameAttribute($value){
