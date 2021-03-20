@@ -25,6 +25,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 use App\Http\Controllers\PageController;
-Route::get('/', [PageController::class, 'index'])->name('home');
+Route::get('/', [PageController::class, 'posts'])->name('home');
 Route::get('blog/{post}', [PageController::class, 'post'])->name('post');
 
