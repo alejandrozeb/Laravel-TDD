@@ -191,4 +191,11 @@ echo "Hello laravel";
     Slug es colocar una url de forma amigable
     basic-new/id
     basic-new/hola-soy-el-parrafo
+
+    Testing
+    Creamos codigo de calidad
+    Laravel viene preparado paratrabajar co pruebas, configura toda
+    las pruebas se encuentran en tests, feature y unit
+    ademas ya viene configurado el archivo de configuracion de php unit
+    pruebas funciolanes
    */
