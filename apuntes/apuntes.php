@@ -198,4 +198,8 @@ echo "Hello laravel";
     las pruebas se encuentran en tests, feature y unit
     ademas ya viene configurado el archivo de configuracion de php unit
     pruebas funciolanes
+
+    php artisan make:test UserTest
+
+    se crea una prueba funcional de la clase User
    */
