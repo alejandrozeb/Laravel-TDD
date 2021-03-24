@@ -202,4 +202,12 @@ echo "Hello laravel";
     php artisan make:test UserTest
 
     se crea una prueba funcional de la clase User
+
+    php artisan make:test UserTest --unit
+
+    para crear pruebas unitarias en app
+
+    php vendor/phpunit/phpunit/phpunit
+
+    para correr los test
    */
