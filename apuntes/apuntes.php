@@ -223,5 +223,13 @@ echo "Hello laravel";
     Refactoring
     Reescribmos el codigo, mejoramos el codigo y debe pasar la prueba
 
+    pROYECTO Api new
+    php artisan make:test Http/Controllers/Api/PostControllerTest
+
+    emulamos la ruta a la que hacemos test
+
+    php artisan make:model Post -fm
+
+    Creamos el model con su factory y migracion
 
    */
