@@ -6,17 +6,17 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
-class UserTest extends TestCase
+class PageTest extends TestCase
 {
     /**
      * A basic feature test example.
      *
      * @return void
      */
-    public function test_example()
+    public function test_about()
     {
-        $response = $this->get('/');
+        $response = $this->get('/about');
 
-        $response->assertStatus(200); //obtenemos 200 en index
+        $response->assertStatus(200);
     }
 }
