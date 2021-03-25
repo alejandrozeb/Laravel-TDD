@@ -210,4 +210,16 @@ echo "Hello laravel";
     php vendor/phpunit/phpunit/phpunit
 
     para correr los test
+
+    Testing Http
+    se prueba todo lo que se muestra en el navegador
+    Se prueba todo al respecto a Http
+    TDD sin probamos el navegador
+    con TDD ya no usamos el navegador es el ultimo paso
+    Roja
+    generamos una prueba 
+    Verde
+    La prueba funciona
+    Refactoring
+    Reescribmos el codigo
    */
