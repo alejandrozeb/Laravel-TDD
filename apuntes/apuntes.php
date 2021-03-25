@@ -221,5 +221,7 @@ echo "Hello laravel";
     Verde
     La prueba funciona
     Refactoring
-    Reescribmos el codigo
+    Reescribmos el codigo, mejoramos el codigo y debe pasar la prueba
+
+
    */
