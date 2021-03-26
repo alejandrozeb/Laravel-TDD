@@ -236,4 +236,15 @@ echo "Hello laravel";
 
     creamos el controlador con api y el model relacionado
 
+    crearemos otra base de datos para pruebas
+    cambiamos en la configuracion para sqlite 
+                'database' => env('DB_DATABASE', database_path('database.sqlite')),
+    por
+    database_path('database.sqlite'),
+    
+
+    EL archivo de configuracion de las pruebas esta configurado para trabajar con sqlite 
+    la db se creara en la pruebas y se eliminara cuando estas terminen
+
+
    */
