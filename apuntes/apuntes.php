@@ -246,5 +246,6 @@ echo "Hello laravel";
     EL archivo de configuracion de las pruebas esta configurado para trabajar con sqlite 
     la db se creara en la pruebas y se eliminara cuando estas terminen
 
-
+    Las pruebas guiana a hacer un codigo correcto
+    
    */
