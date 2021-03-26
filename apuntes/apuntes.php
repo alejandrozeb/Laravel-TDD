@@ -232,4 +232,8 @@ echo "Hello laravel";
 
     Creamos el model con su factory y migracion
 
+    php artisan make:controller Api/PostController --api --model=Post
+
+    creamos el controlador con api y el model relacionado
+
    */
