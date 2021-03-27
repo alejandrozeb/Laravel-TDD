@@ -16,6 +16,7 @@ class PostControllerTest extends TestCase
      */
     public function test_store()//referencia a store de postController
     {
+        $this->withoutExceptionHandling();
         $response = $this->json('POST', '/api/posts',[
             'title' => 'El post de prueba' 
         ]); //accedemos a la ruta enviando un datos

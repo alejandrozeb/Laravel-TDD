@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::view('/about', 'welcome');
+
+
+Route::apiResource('posts', App\Http\Controllers\Api\PostController::class);
