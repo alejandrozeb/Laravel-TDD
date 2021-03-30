@@ -248,4 +248,8 @@ echo "Hello laravel";
 
     Las pruebas guiana a hacer un codigo correcto
     
+
+    php artisan make:request Post
+
+    
    */
