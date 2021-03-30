@@ -24,6 +24,14 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+
+    protected $posts;
+    public function __construct(Post $post){
+        $this->post = $post;
+    }
+
+
+
     public function store(Request $request)
     {
         $post = Post::create([$request->all()]);
