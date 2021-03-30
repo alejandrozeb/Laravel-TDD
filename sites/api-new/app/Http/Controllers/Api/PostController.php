@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use App\Models\Post;
-use Illuminate\Http\Request;
+use App\Http\Requests\Post as PostRequests;
 
 class PostController extends Controller
 {
@@ -32,7 +32,7 @@ class PostController extends Controller
 
 
 
-    public function store(Request $request)
+    public function store(PostRequests $request)
     {
         $post = $this->post->create([$request->all()]);
 
