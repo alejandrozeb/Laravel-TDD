@@ -6,6 +6,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
+use App\Post;
 class PostControllerTest extends TestCase
 {
     use RefreshDatabase;
@@ -42,7 +43,7 @@ class PostControllerTest extends TestCase
     }
 
     public function test_show(){
-        $post = factory(Post::class)->create();
+        $post = Post::factory()->create();
 
         $response = $this->json('GET', "/api/posts/$post->id"); //id=1 
 
