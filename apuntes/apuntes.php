@@ -251,5 +251,7 @@ echo "Hello laravel";
 
     php artisan make:request Post
 
+    Laravel devuelve un 404
+
     
    */

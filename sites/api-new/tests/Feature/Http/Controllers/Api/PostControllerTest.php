@@ -51,4 +51,11 @@ class PostControllerTest extends TestCase
         ->assertJson(['title' => $post->title])
         ->assertStatus(200);    //ok
     }
+
+    public function test_404_show(){
+
+        $response = $this->json('GET', "/api/posts/1000"); //id=1 
+
+        $response->assertStatus(200);    //ok
+    }
 }
