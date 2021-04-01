@@ -253,5 +253,6 @@ echo "Hello laravel";
 
     Laravel devuelve un 404
 
+    cada metodo es independiente
     
    */
