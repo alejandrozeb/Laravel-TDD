@@ -255,4 +255,5 @@ echo "Hello laravel";
 
     cada metodo es independiente
     
+    
    */
